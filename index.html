@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Grids</title>
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 40% 30% 30%;
+            /*grid-column-gap: 1em;
+            grid-row-gap: 1em;*/
+            grid-gap: 1em;
+        }
+        
+        .wrapper>div {
+            background: #eee;
+            padding: 1em;
+        }
+        
+        .wrapper>div:nth-child(odd) {
+            background: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam eius esse incidunt. Blanditiis vero officiis aliquid expedita, facere nobis reiciendis quaerat, ducimus molestias ullam soluta architecto quo dolore quod natus officia minus velit enim illum
+            qui necessitatibus quas doloribus, suscipit aut. Dolore natus cum quo eum id dicta exercitationem necessitatibus, commodi beatae. Dolorum, itaque sequi placeat veniam ea natus praesentium accusamus obcaecati sit! Voluptatibus eaque cumque
+            reprehenderit odit ipsum est exercitationem tempora, omnis unde. Placeat nisi mollitia consectetur quo et?
+        </div>
+        <div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum veritatis porro perspiciatis, autem exercitationem, nulla tempora dignissimos dolor fugiat ad nihil eos hic aperiam nobis dolorum quia recusandae placeat neque.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam eius esse incidunt. Blanditiis vero officiis aliquid expedita, facere nobis reiciendis quaerat, ducimus molestias ullam soluta architecto quo dolore quod natus officia minus velit enim illum
+            qui necessitatibus quas doloribus, suscipit aut. Dolore natus cum quo eum id dicta exercitationem necessitatibus, commodi beatae. Dolorum, itaque sequi placeat veniam ea natus praesentium accusamus obcaecati sit! Voluptatibus eaque cumque
+            reprehenderit odit ipsum est exercitationem tempora, omnis unde. Placeat nisi mollitia consectetur quo et?
+        </div>
+        <div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum veritatis porro perspiciatis, autem exercitationem, nulla tempora dignissimos dolor fugiat ad nihil eos hic aperiam nobis dolorum quia recusandae placeat neque.
+        </div>
+        <div>
+            Hello.
+        </div>
+    </div>
+
+</body>
+
+</html>
